@@ -1,0 +1,67 @@
+# ==========================================
+# Python & Flask Email Service .gitignore
+# ==========================================
+
+# --- Python general ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Environment / Secrets ---
+.env
+*.env
+.env.*
+secrets.json
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- IDEs and editors ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS specific ---
+.DS_Store
+Thumbs.db
+
+# --- Logs and runtime files ---
+*.log
+*.out
+*.pid
+*.bak
+instance/
+logs/
+tmp/
+
+# --- Build / cache ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Test & coverage ---
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+
+# --- Render & Deployment ---
+# Ignore local environment files but keep the Render-specific configs
+render.yaml
+*.local
+
+# --- Byte-compiled libraries ---
+*.so
+
+# --- Jupyter & Notebooks ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Misc ---
+*.swp
+*.swo
